@@ -103,4 +103,3 @@ async function init(){
 }
 
 init().then(() => render());
-//render();

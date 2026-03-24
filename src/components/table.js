@@ -22,7 +22,7 @@ export function initTable(settings, onAction) {
 
 
     root.container.addEventListener('reset', ()=>{
-        window.setTimeout(onAction(), 1000);
+        window.setTimeout(onAction, 1000);
     })
     root.container.addEventListener('change', ()=>{
         onAction();
